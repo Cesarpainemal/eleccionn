@@ -36,4 +36,29 @@ public class Elecciondeedificio {
     }
 }
 
+--------------------------------------------------------------------
+
+ackage eleccion;
+
+
+
+public class Moneda {
+    private int cara;
+    private int cruz;
+    
+    public Moneda(int cara , int cruz) {
+        this.cara = cara;
+        this.cruz = cruz;
+    }
+
+    public int getCara() {
+        return cara;
+    }
+
+    public int getCruz() {
+        return cruz;
+    }
+
+  
+}
 
